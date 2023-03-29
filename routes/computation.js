@@ -14,7 +14,7 @@ router.get('/', function(req, res, next) {
   b=Math.cosh(ran);
   c=Math.floor(ran);
   
-  res.send(`log2 applied to ran is: ${a}, cosh applied to ran is: ${b} , floor applied to ran is: ${c}`);
+  res.send(`log2 applied to ran is: ${a},  cosh applied to ran is: ${b},  floor applied to ran is: ${c}`);
 
 
 });
